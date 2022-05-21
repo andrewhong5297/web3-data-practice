@@ -15,12 +15,10 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
 
 - calculate the total ETH transfer value by block in the last week ****using `ethereum.transactions` and `ethereum.traces`. Why are the values different?
 - look at an [example transaction](https://etherscan.io/tx/0xfa8aac1b4d50952f7cc711cd3959c05968ade2e538639c9555c5aa0d0fa6e76d) (of a token swap) using only `ethereum.transactions` and `ethereum.traces` tables. Don’t worry about understanding the protocol, just answer the following questions:
+    - ![diagram explaining every part of a tx on etherscan]((https://github.com/andrewhong5297/web3-data-practice/blob/main/analyst/diagram/tx_explained.jpg)
     - bonus question: how much gas was used in this swap?
         - hint on how gas breaks down
             - [reading resource](https://www.blocknative.com/blog/eip-1559-fees#:~:text=The%20New%20Terminology%20of%20EIP%2D1559%20Transactions&text=Instead%20of%20a%20singular%20Gas,is%20paid%20directly%20to%20miners.)
-            
-            ![Idea board - etherscan transaction explained.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dda7e197-1d74-40d9-9a9d-2095e9af38a8/Idea_board_-_etherscan_transaction_explained.jpg)
-            
     - bonus question: how many contracts were involved?
     - bonus question: how do you remove double counts of proxy contracts? hint: lookup delegate calls (don’t confuse `call` and `call_type`!)
     - bonus question: how many of these contracts are under the same namespace on Dune (i.e. uniswap, mirror, aave)?
