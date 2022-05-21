@@ -1,5 +1,7 @@
 ### Data Analyst Practice Questions:
 
+It is my opinion that you should be able to answer all of these questions to be a competent web3 analyst.
+
 Some notes before you get started:
 
 1. These questions assume you already have some SQL background. 
