@@ -4,4 +4,4 @@ This repo is for practice questions for on-chain data analysis, engineering, and
 The organization of this repo will probably change a lot as we figure it out, but we'll start simple with just one folder and questions list
 
 | analyst
-  |- basic_practice.md 
+  /n|- basic_practice.md 
