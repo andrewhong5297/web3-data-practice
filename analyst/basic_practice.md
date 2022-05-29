@@ -16,7 +16,7 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
 </aside>
 
 - calculate the total ETH transfer value by block in the last week using `ethereum.transactions` and `ethereum.traces`. Why are the values different?
-    - bonus question: can you figure out what was the cause of the largest difference between tables?
+    - bonus question: can you figure out what was the cause of the largest difference between tables where traces > txs value?
 - look at an [example transaction](https://etherscan.io/tx/0xfa8aac1b4d50952f7cc711cd3959c05968ade2e538639c9555c5aa0d0fa6e76d) (of a token swap) using only `ethereum.transactions` and `ethereum.traces` tables. Don’t worry about understanding the protocol, just answer the following questions:
     - [diagram explaining every part of a tx on etherscan](https://github.com/andrewhong5297/web3-data-practice/blob/main/analyst/diagrams/tx_explained.jpg)
     - bonus question: how much gas was used in this swap?
