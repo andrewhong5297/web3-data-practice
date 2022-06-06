@@ -23,12 +23,13 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
         - hint on how gas breaks down
             - [reading resource](https://www.blocknative.com/blog/eip-1559-fees#:~:text=The%20New%20Terminology%20of%20EIP%2D1559%20Transactions&text=Instead%20of%20a%20singular%20Gas,is%20paid%20directly%20to%20miners.)
     - bonus question: how many contracts were involved?
-    - bonus question: how do you remove double counts of proxy contracts? hint: lookup delegate calls (don’t confuse `call` and `call_type`!)
+    - bonus question: how do you remove double counts of proxy contracts? hint: lookup delegate calls (don’t confuse `type` and `call_type`!)
     - bonus question: how many of these contracts are under the same namespace on Dune (i.e. uniswap, mirror, aave)?
 3. find all the new DEX pairs created in the first month the [Uniswap V2 factory was deployed](https://docs.uniswap.org/protocol/V2/reference/smart-contracts/factory).
     - Bonus question: find each pair’s DEX volume, grouped by month.
 4. how can you figure out quickly which logs or functions to look at? Try and find the Uniswap V2 Pair contract for USDC/ETH. Run the analysis using `ethereum.logs` and `ethereum.transactions` tables only.
     - I have a list of utility queries out there somewhere with the answer to this one. Wonder if you can find them? 🙂
+    - bonus question: given some namespace in `ethereum.contracts`, can you figure out what order users usually call functions in?
 5. what’s an ERC20 token standard and how can you find a `transfer` event or function call?
     - hint: keccak256 hash for transfer event `Transfer(address,address,uint256)`
         - [https://emn178.github.io/online-tools/keccak_256.html](https://emn178.github.io/online-tools/keccak_256.html)
