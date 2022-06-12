@@ -27,7 +27,7 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
     - bonus question: how many of these contracts are under the same namespace on Dune (i.e. uniswap, mirror, aave)?
 3. find all the new DEX pairs created in the first month the [Uniswap V2 factory was deployed](https://docs.uniswap.org/protocol/V2/reference/smart-contracts/factory).
     - Bonus question: find each pair’s DEX volume, grouped by month.
-4. how can you figure out quickly which logs or functions to look at? Try and find the Uniswap V2 Pair contract for USDC/ETH. Run the analysis using `ethereum.logs` and `ethereum.transactions` tables only.
+4. how can you figure out quickly which logs or functions to look at? Try and find the Uniswap V2 Pair contract for USDC/ETH. Run the analysis across `ethereum.logs`, `ethereum.transactions`, and `ethereum.traces`.
     - I have a list of utility queries out there somewhere with the answer to this one. Wonder if you can find them? 🙂
     - bonus question: given some namespace in `ethereum.contracts`, can you figure out what order users usually call functions in?
     - bonus question: you'll notice that there are more LP transfer events than total minting + burning events. Why are LP tokens being transferred so often (hint: yield farming)?
