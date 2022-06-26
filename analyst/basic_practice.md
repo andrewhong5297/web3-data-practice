@@ -36,13 +36,13 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
         - [https://emn178.github.io/online-tools/keccak_256.html](https://emn178.github.io/online-tools/keccak_256.html)
     - bonus question: look at the COMP token, and examine the distribution of delegations.
         - compare this delegation across governance proposals (look for the Governor Bravo and Alpha contracts). Were there any periods of large voting power swings?
-6. how can you calculate ERC20 balances (use **USDC**) using events? Who are the top 100 holders?
-    - use `ethereum.logs` and then `erc20.ERC20_evt_Transfer` table.
+6. how can you calculate ERC20 balances (use **USDC**) using events? Who are the top 100 holders? Use `ethereum.logs` and then `erc20.ERC20_evt_Transfer` table.
     - bonus question: how many times are there `approval` calls before a `transfer` call?
-    - bonus question: can you look at the Ronin bridge hack and figure out when the hack started?
-    - bonus question: calculate interest/aToken balance point in time? or rebasing token like OHM?
+    - bonus question: calculate rebase for stETH? 
+        - bonus bonus question: why does Curve work but Uniswap doesn't for ETH/stETH rebase balances? 
 7. how do you find someone’s LP balance and historical change in representation in the Uniswap v2 USDC/ETH pool?
     - bonus question: find the top 100 holders of USDC by adding raw balances (from last question) and liquidity pair balances together.
+    - bonus question: find the top 100 holders of USDC across as many pools and wrappers as you can!
 8. What’s the historical DEX trading share of USDC/ETH by DEX protocol (not incl aggregators) using `dex.trades`?
     - bonus question: find the inflection points where shares drastically changed. What were the governance proposals that went through during that time?
 9. what are the top 100 NFT contracts spent the most gas to mint (before April 25th, 2022) using any combination of tables?
