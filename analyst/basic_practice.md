@@ -42,7 +42,7 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
         - bonus bonus question: why does Curve work but Uniswap doesn't for ETH/stETH rebase balances? 
 7. how do you find someone’s LP balance and historical change in representation in the Uniswap v2 USDC/ETH pool?
     - bonus question: find the top 100 holders of USDC by adding raw balances (from last question) and liquidity pair balances together.
-    - bonus question: find the top 100 holders of USDC across as many pools and wrappers as you can!
+    - bonus question: find the top 100 holders of USDC across as many wrappers as you can! Who holds the most # of unique wrappers?
 8. What’s the historical DEX trading share of USDC/ETH by DEX protocol (not incl aggregators) using `dex.trades`?
     - bonus question: find the inflection points where shares drastically changed. What were the governance proposals that went through during that time?
 9. what are the top 100 NFT contracts spent the most gas to mint (before April 25th, 2022) using any combination of tables?
