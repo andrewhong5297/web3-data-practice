@@ -42,14 +42,15 @@ Learn to use all the search tools at your disposal: Google, Dune search, Twitter
         - bonus bonus question: why does Curve work but Uniswap doesn't for ETH/stETH rebase balances? 
 7. how do you find someone’s LP balance and historical change in representation in the Uniswap v2 USDC/ETH pool?
     - bonus question: find the top 100 holders of USDC by adding raw balances (from last question) and liquidity pair balances together.
-    - bonus question: find the top 100 holders of USDC across as many wrappers as you can! Who holds the most # of unique wrappers?
-    - bonus question: figure out LP impermanent loss from USDC/ETH pool!
-8. What’s the historical DEX trading share of USDC/ETH by DEX protocol (not incl aggregators) using `dex.trades`?
+        - bonus bonus question: can you generalize this to all USDC pairs in Uniswap? hint: find all pairs that have USDC as either token0 or token1 first.
+    - bonus question: find the top 100 holders of USDC across as many wrappers as you can! Who holds the most # of unique wrappers? hint: has to do with how wrappers manage symbols ;)
+8. Figure out LP impermanent loss from USDC/ETH pool! hint: check their balances over time versus their share of USDC or ETH in the pool.
+9. What’s the historical DEX trading share of USDC/ETH by DEX protocol (not incl aggregators) using `dex.trades`?
     - bonus question: find the inflection points where shares drastically changed. What were the governance proposals that went through during that time?
-9. what are the top 100 NFT contracts spent the most gas to mint (before April 25th, 2022) using any combination of tables?
+10. what are the top 100 NFT contracts spent the most gas to mint (before April 25th, 2022) using any combination of tables?
     - bonus question: same question but filter for failed transactions only
-10. how to calculate the floor price of NFTs based on recent sales (using just OpenSea data)?
+11. how to calculate the floor price of NFTs based on recent sales (using just OpenSea data)?
     - bonus question: which collection has the maximum difference when you use daily sale minimum versus percentile?
     - bonus question: how do trends compare using 1 day, 1 week, and 1 month averages?
     - bonus question: fractional trading price as NFT token value?
-11. NFT trading share over time of BAYC (by the marketplace) using `nft.trades`?
+12. NFT trading share over time of BAYC (by the marketplace) using `nft.trades`?
